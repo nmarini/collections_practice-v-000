@@ -35,5 +35,5 @@ def start_with?(word)
 end
 
 def find_a(array)
-array.select{|word| word if start_with(word) == "a"}
+array.select{|word| word[0] == "a"}
 end
