@@ -32,4 +32,8 @@ end
 
 def start_with?(word)
   word.split(//).first
-end 
+end
+
+def find_a(array)
+array.select{|word| word if start_with(word) == "f"}
+end
