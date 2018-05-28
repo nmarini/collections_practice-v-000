@@ -12,7 +12,7 @@ array.sort{|a, b| a.size <=> b.size }
 end
 
 def swap_elements(array)
-array.map do
+
 end
 
 def reverse_array(array)
