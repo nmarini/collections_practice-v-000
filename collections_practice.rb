@@ -21,9 +21,12 @@ def reverse_array(array)
 end
 
 def kesha_maker(array)
+  def kesha_maker(array)
   new = []
   array.each do |word|
-   new << word.split(//).insert(2,"$").join
+  i = word.split(//)
+  i.delete(i[2])
+  new << i.insert(2,"$").join
   end
- new
-end
+  new
+  end
