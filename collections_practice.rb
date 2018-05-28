@@ -30,10 +30,6 @@ array.each do |word|
   new
 end
 
-def start_with?(word)
-  word.split(//).first
-end
-
 def find_a(array)
 array.select{|word| word[0] == "a"}
 end
