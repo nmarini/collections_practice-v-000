@@ -32,12 +32,12 @@ def sum_array(array)
   array.inject{|result, element| result + element}
 end
 
-def add_s(array)
+def adds(array)
   array.each_with_index.collect do |element, index|
 if element[index] == element[1]
 element
 else
-element << s"
+element << "s"
 end
 end
 end
