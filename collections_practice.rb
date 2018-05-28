@@ -23,7 +23,7 @@ end
 def kesha_maker(array)
   new = []
   array.each do |word|
-  new << word.split(//).insert(2,"$").join
-end
+   new << word.split(//).insert(2,"$").join
+  end
  new
 end
