@@ -29,3 +29,7 @@ array.each do |word|
  end
   new
 end
+
+def start_with?(word)
+  word.split(//).first
+end 
